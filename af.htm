@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="se">
+<head>
+    <title>Lediga tjänster hos Arbetsförmedlingen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+<body>
+    <header id="mainheader">
+        <div class="contain">
+            <h1 id="logo">DT084G - Projekt</h1>
+
+            <section id="search">
+                <select id="searchlan" class="form-control"></select>
+                <input type="search" placeholder="Sök..." id="searchText" class="form-control">
+                <button id="searchbutton" class="btn btn-primary">Sök</button>
+            </section>
+            <!-- /#search -->
+        </div>
+        <!-- /.contain -->
+    </header>
+
+    <div class="container">
+        <h2>Lediga tjänster hos Arbetsförmedlingen</h2>
+
+
+        <div class="left">
+            <section class="lan">
+                <h3>Bläddra via län</h3>
+                <nav id="mainnav">
+                    <ul id="mainnavlist"></ul>
+                    <div class="spacer">
+                        <input type="checkbox" id="onlyit">&nbsp;&nbsp;<label for="onlyit">Visa endast Data/IT</label>
+                    </div>
+
+                    <div class="spacer">
+                        <label for="numrows">Max antal: </label><input type="number" id="numrows" value="20" min="1" max="2000">&nbsp;&nbsp;
+                    </div>
+                </nav>
+            </section>
+            <!-- /#lan -->
+        </div>
+        <!-- /.left -->
+
+        <div class="right">
+            <div id="info"></div>
+            <!-- /#info -->
+        </div>
+        <!-- /.right -->
+
+        <footer>
+            <p>Projektuppgift för kursen DT084G, Introduktion till programmering med JavaScript.</p>
+        </footer>
+    </div>
+    <!-- /.container -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

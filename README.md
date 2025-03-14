@@ -1,5 +1,7 @@
 # DT084G - Introduction to Programming in JavaScript
 
-En webbplats som arbetar mot Arbetsförmedlingens API där innehållet uppdateras dynamiskt med JavaScript och AJAX-tekniker.
+Fundamentals of Programming with JavaScript.
 
-[__Rapport__](https://github.com/albinronnkvist/Course_DT084G_IntroductionToProgrammingInJavaScript/blob/master/DT084G_essay_sv.pdf)
+In this course, I worked with fundamental programming concepts using JavaScript. I developed dynamic websites that consumed APIs using AJAX technologies. For the final project, I built a website that interacts with the Swedish Public Employment Service's API, where content is dynamically updated using JavaScript and AJAX.
+
+[Essay](https://github.com/albinronnkvist/Course_DT084G_IntroductionToProgrammingInJavaScript/blob/master/DT084G_essay_sv.pdf)
